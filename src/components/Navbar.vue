@@ -43,6 +43,7 @@ export default {
   border-radius: 4px;
   margin: 20px 0;
   margin-top: 0;
+  margin-bottom: 0px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
