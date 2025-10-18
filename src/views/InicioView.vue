@@ -20,7 +20,7 @@
 .inicio{
     max-width: 900px;       /* limita a largura para centralizar o texto */
     margin: 0 auto;         /* centraliza horizontalmente */
-    text-align: left;     /* centraliza o texto */
+    text-align: left;    
     padding: 40px 20px; 
 }
 
