@@ -19,13 +19,18 @@ export default {
 <style scoped>
 
 #DificuldadesEnfrentadas {
-    display: flex;
+  display: flex;
+  justify-content: space-between; /* distribui as imagens igualmente */
+  flex-wrap: wrap;                /* permite quebrar em telas menores */
+  gap: 15px;                      /* espaço entre as imagens */
 }
-#DificuldadesEnfrentadas img{
-    width: 300px;
-    height: 250px;
-    margin-right: 20px;
-    border-radius: 7px;
-  
+
+#DificuldadesEnfrentadas img {
+  flex: 1;                        /* faz as imagens ocuparem espaço proporcional */
+  max-width: 300px;               /* limite máximo */
+  height: 250px;
+  border-radius: 7px;
+  object-fit: cover;              /* mantém proporção da imagem */
 }
+
 </style>
