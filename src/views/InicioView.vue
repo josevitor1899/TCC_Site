@@ -2,16 +2,20 @@
   <div class="inicio">
     <texto01/>
     <texto02/>
+    <texto03/>
   </div>
 </template>
 
 <script>
   import Texto01 from '@/components/TextosInicio/Texto01.vue';
   import Texto02 from '@/components/TextosInicio/Texto02.vue';
+  import Texto03 from '@/components/TextosInicio/Texto03.vue';
+  
   export default {
     components: {
       Texto01,
-      Texto02
+      Texto02,
+      Texto03
     }
   }
 </script>
