@@ -32,6 +32,11 @@
    color: #000;
    font-family: Helvetica;
    max-width: 900px;
+}
 
+.inicio p{
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 </style>
