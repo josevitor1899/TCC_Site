@@ -4,6 +4,7 @@
     <texto02/>
     <texto03/>
     <texto04/>
+    <texto05/>
   </div>
 </template>
 
@@ -12,13 +13,15 @@
   import Texto02 from '@/components/TextosInicio/Texto02.vue';
   import Texto03 from '@/components/TextosInicio/Texto03.vue';
   import Texto04 from '@/components/TextosInicio/Texto04.vue';
+  import Texto05 from '@/components/TextosInicio/Texto05.vue';
   
   export default {
     components: {
       Texto01,
       Texto02,
       Texto03,
-      Texto04
+      Texto04,
+      Texto05
     }
   }
 </script>
